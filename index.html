@@ -2,12 +2,41 @@
 <html>
 <head>
 
-    <title>Test Page</title>
+    <title>Simple Recipe List Site</title>
 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">.
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+    #MainTitle{
+        color:cornflowerblue;
+    }    
+            .row > div {
+                padding: 20px;
+                background-color: cornflowerblue;
+                border: 2px solid black;
+                text-align:center;
+                border-radius: 5px
+            }
+        
+     </style>
 
 </head>
 <body>
-    <h1> Test Heading</h1>
-    <p>Test Body</p>
+    <h1 id="MainTitle">Welcome to my recipe website!</h1>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-md-6 col-sm-10">
+                Pizza
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-10">
+                Pancakes
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-10">
+                Wraps
+            </div>
+
+        </div>
+    </div>    
+
 </body>
 </html>
